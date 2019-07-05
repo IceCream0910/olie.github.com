@@ -1,284 +1,259 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
-    <title>Olie</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="음악은 누구나 들을 수 있어야 한다">
-    <meta name="keywords" content="global, template, html, sass, jquery">
-    <meta name="author" content="Bucky Maler">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="shortcut icon" href="/assets/img/logoo1.ico">
+    <meta http-equiv="Expires" content="Mon, 06 Jan 1990 00:00:01 GMT">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,viewport-fit=cover">
+    <meta name="theme-color" content="#ffe000">
+    <meta name="google-site-verification" content="_IyYG_PPHayp3uXpdjDN9PiUHwsgcFvWk-rPisGva2Y">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="hey kakao">
+    <meta property="og:description" content="일상을 바꾸는 한마디, 헤이카카오">
+    <meta property="og:image" content="/meta-560x280_3.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="shortcut icon" href="https://kakao.ai/favicon.ico">
+    <title>OLIE - 음악을 듣는 새로운 방법</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
+    <noscript>
+    이 앱을 실행하려면 자바 스크립트를 사용해야합니다. 
+  </noscript>
 
-    <!-- notification for small viewports and landscape oriented smartphones -->
-    <div class="device-notification">
-        <a class="device-notification--logo" href="#0">
-            <img src="assets/img/icon.png" alt="Global">
-            <p>Global</p>
-        </a>
-        <p class="device-notification--message">화면의 크기가 너무 작아 사이트를 정상적으로 표시할 수 없습니다.</p>
     </div>
+    <div id="kakaoContent" role="main">
+        <div id="cMain">
+            <div id="mArticle">
+                <h2 id="kakaoBody" class="screen_out">Hey Kakao</h2>
+                <div class="heykako_intro">
+                    <div class="wrap_cont">
 
-    <div class="perspective effect-rotate-left">
-        <div class="container">
-            <div class="outer-nav--return"></div>
-            <div id="viewport" class="l-viewport">
-                <div class="l-wrapper">
-                    <header class="header">
-                        <a class="header--logo" href="#0">
-                            <img src="assets/img/icon.png" alt="OLIE LOGO">
-                            <p>OLIE</p>
-                        </a>
-                        <button class="header--cta cta">사용 의견</button>
-                        <div class="header--nav-toggle">
-                            <span></span>
+
+                        <strong class="tit_intro"> 
+          <!-- react-text: 110 -->음악은 누구나
+          <br>
+          <!-- /react-text --><i class="line_mobile"></i> 
+
+          <!-- react-text: 112 -->들을 수 있어야 한다.
+          <!-- /react-text --></strong>
+                        <br><br>
+                        <button style="  background-color: #FF504A;
+                                border: none;
+                                color: white;
+                                padding: 20px;
+                                text-align: center;
+                                text-decoration: none;
+                                display: inline-block;
+                                font-size: 16px;
+                                margin: 4px 2px;
+                                border-radius: 30px;
+                                cursor: pointer;" onclick="location.href='https://drive.google.com/file/d/1Zry6Pm7ejV_yTywp2qJt2FSK3p7FEU8L/view?usp=sharing'">DOWNLOAD</button>
+
+
+                    </div>
+                </div>
+                <div class="heykakao_about ">
+                    <div class="wrap_cont ">
+                        <h1>음악을 듣는 새로운 방법</h1>
+                        <p class="txt_item ">음악을 들으려면 왜 돈을 내야하지?
+                            <!-- /react-text --><i class="line_pc line_middle "></i>
+                            <!-- react-text: 127 -->라는 생각에서 OLIE는 만들어졌습니다.
+                            <!-- /react-text --><br>
+                            <!-- react-text: 129 -->누구나 쉽게 음악을 들을 수 있도록
+                            <!-- /react-text --><i class="line_pc line_middle "></i>
+                            <!-- react-text: 131 -->음악을 듣는 새로운 방법을 제시합니다.
+                            <!-- /react-text -->
+                        </p>
+                    </div>
+                </div>
+                <div class="heykakao_driving ">
+                    <div class="wrap_cont ">
+                        <div class="wrap_txt ">
+                            <strong class="tit_driving ">모든 것을<a style="color:rgb(252, 50, 44) "> PLAY</a>하다</strong>
+                            <p class="txt_driving ">음원으로 등록되지 않은 곡도 얼마든지 PLAY. <br> OLIE의 친화력은 지구를 초월합니다.
+                            </p>
                         </div>
-                    </header>
-                    <nav class="l-side-nav">
-                        <ul class="side-nav">
-                            <li class="is-active"><span>Home</span></li>
-                            <li><span>About</span></li>
-                            <li><span>Download</span></li>
-                            <li><span>Contact</span></li>
-                            <li><span>Review</span></li>
-                        </ul>
-                    </nav>
-                    <ul class="l-main-content main-content">
-                        <li class="l-section section section--is-active">
-                            <div class="intro">
-                                <div class="intro--banner">
-                                    <h1>음악은<br>누구나 들을 수<br>있어야 한다</h1>
-                                    <button onclick="window.open('https://drive.google.com/open?id=1treQgV0Dl1LboE4VjrbTOZjnubnkcTYh')">DOWNLOAD
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                  <span class="btn-background"></span>
-                </button>
-                                    <img src="assets/img/mockup1.png" alt="MOCKUP_one">
+                        <div class="wrap_vod ">
+                            <div class="inner_vod ">
+                                <video id="videoDriving " class="item_video " src=" " poster="player.jpeg " playsinline=" " muted="true "></video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="heykakao_example ">
+                    <div class="wrap_cont ">
+                        <strong class="tit_example "> 
+          <!-- react-text: 144 -->필요한 정보만 <!-- /react-text --><i class="line_pc line_middle "></i>
+                        <!-- react-text: 146 -->눌러담은 <a style="color:rgb(252, 50, 44) "> 홈화면</a>
+                        <!-- /react-text -->
+                        </strong>
+                        <p class="txt_example ">
+                            <!-- react-text: 148 -->OLIE에 음원차트는 없습니다
+                            <!-- /react-text --><br>
+                            <!-- react-text: 150 -->당신을 위한 첫인상을 디자인했습니다.
+                            <!-- /react-text -->
+                        </p>
+                        <span class="img_example01 ">이미지</span>
+                    </div>
+                    <div class="wrap_cont " style="background-color:rgb(228, 73, 67); ">
+                        <strong class="tit_example " style="color:white; "> 
+          <!-- react-text: 154 -->종횡무진한 검색능력<!-- /react-text --><br>
+                        <!-- react-text: 156 --><!-- /react-text -->
+                        </strong>
+                        <p class="txt_example " style="color:white; ">
+                            <!-- react-text: 158 -->방대한 음원에 Youtube를 더해
+                            <!-- /react-text --><br>
+                            <!-- react-text: 160 -->세상의 모든 소리를 검색해냅니다.
+                            <!-- /react-text -->
+                        </p>
+                        <span class="img_example02 ">카톡 전송 이미지</span>
+                    </div>
+                </div>
+                <div class="heykakao_search ">
+                    <div class="wrap_cont ">
+                        <div class="wrap_txt ">
+                            <h4 style="color:#FF504A; ">마침내 완성하다</h4>
+                            <strong class="tit_search "> 
+                                
+           <!-- react-text: 169 -->ONLY.  오직
+           <!-- /react-text --><br> 
+           <!-- react-text: 171 -->OLIE. 에서만
+           <!-- /react-text --></strong>
+                        </div>
+                        <div class="wrap_search ">
+
+                            <div class="item_search item_info ">
+                                <p class="wrap_txt "><span class="txt_info ">소개합니다<br><br>수많은 고민 끝에 탄생한<br>OLIE의 능력.</span>
+                                </p>
+                            </div>
+                            <div class="item_search item_vod1 ">
+                                <div class="inner_vod ">
+                                    <video id="videoVoiceSearch " class="item_video " src="http://t1.kakaocdn.net/kakao_ai_brandsite/PC/tab_heykakao/brandsite_heykakao_scene02.mp4 " poster="https://whal.eu/i/lEWeqV7P " playsinline=" " muted="true "></video>
                                 </div>
-                                <div class="intro--options">
-                                    <a href="#0">
-                                        <h3>홈화면을 비우다</h3>
-                                        <p>현재 인기 곡과 추천 곡. 더 이상의 정보는 필요없다.</p>
-                                    </a>
-                                    <a href="#0">
-                                        <h3>깔끔한 플레이어</h3>
-                                        <p>앨범 사진은 위에서 보고, 컨트롤은 아래에서</p>
-                                    </a>
-                                    <a href="#0">
-                                        <h3>고민이 필요없는 검색</h3>
-                                        <p>검색어에 가장 어울리는 결과 딱 하나만.</p>
-                                    </a>
+                                <span class="txt_vod ">백그라운드 재생</span>
+                                <span class="txt_item ">다른 작업을 하면서 음악을 감상하다. 당연해보이지만<br> Youtube도 가능하다면 혁신.</span>
+                            </div>
+                            <div class="item_search item_weather ">
+                                <img style="border-radius: 20px " src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/attachment_68585523.jpg?auto=format&q=60&fit=max&w=930 " alt="날씨 검색 결과 이미지 " class="img_item ">
+                                <span class="txt_question ">음악엔 앨범아트가 필수</span>
+                                <span class="txt_item ">무료지만 앨범아트는 빠질 수 없죠. 음악마다 새로운 느낌 뿜뿜</span><br>
+                                <span class="txt_item " style="font-size:10px; ">※ 일부 곡에 한해 지원됨.</span>
+                            </div>
+                            <div class="wrap_item ">
+                                <div class="item_search item_english ">
+                                    <img style="border-radius:10px " src="youtube.jpg " alt="영어 검색 결과 이미지 " class="img_item ">
+                                    <span class="txt_question ">MV도 OLIE에서</span>
+                                    <span class="txt_item ">소리만 들을 수 있다고 생각했다면 시기상조</span><br>
+                                    <span class="txt_item " style="font-size:10px; ">※ 저작자가 외부재생을 허용하지 않은 경우 불가능합니다.</span>
+                                </div>
+                                <div class="item_search item_fortune ">
+                                    <img style="border-radius:10px " src="banner.jpeg " alt="운세 검색 결과 이미지 " class="img_item ">
+                                    <span class="txt_question ">아래에서 하단바로</span>
+                                    <span class="txt_item ">한손으로 간편하게 조작할 수 있도록.</span>
                                 </div>
                             </div>
-                        </li>
-                        <li class="l-section section">
-                            <div class="work">
-                                <h2>Only Olie</h2>
-                                <div class="work--lockup">
-                                    <ul class="slider">
-                                        <li class="slider--item slider--item-left">
-                                            <a href="#0">
-                                                <div class="slider--item-image">
-                                                    <img src="assets/img/work-victory.jpg" alt="Victory">
-                                                </div>
-                                                <p class="slider--item-title">고민이 필요없는 검색</p>
-                                                <p class="slider--item-description">검색어에 가장 어울리는 결과 딱 하나만.</p>
-                                            </a>
-                                        </li>
-                                        <li class="slider--item slider--item-center">
-                                            <a href="#0">
-                                                <div class="slider--item-image">
-                                                    <img src="assets/img/work-metiew-smith.jpg" alt="Metiew and Smith">
-                                                </div>
-                                                <p class="slider--item-title">홈화면을 비우다</p>
-                                                <p class="slider--item-description">현재 인기 곡과 추천 곡. 더 이상의 정보는 필요없다.</p>
-                                            </a>
-                                        </li>
-                                        <li class="slider--item slider--item-right">
-                                            <a href="#0">
-                                                <div class="slider--item-image">
-                                                    <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
-                                                </div>
-                                                <p class="slider--item-title">모든 것을 듣다</p>
-                                                <p class="slider--item-description">공식 음원 뿐만 아니라 커버 영상, 자작곡, 미공개곡, MV등 모든 것을 All Play. 그래서 OLIE</p>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <div class="slider--prev">
-                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
-                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
-                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
-                  </g>
-                  </svg>
-                                    </div>
-                                    <div class="slider--next">
-                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                                    </div>
+                            <div class="wrap_item2 ">
+                                <div class="item_search item_schedule ">
+                                    <img style="border-radius:20px " src="lyrics.jpeg " alt="일정 검색 결과 이미지 " class="img_item ">
+                                    <span class="txt_question ">가사까지 척척</span>
+                                    <span class="txt_item ">이제 더 이상 가사 영상 찾지 마세요. OLIE에서 찾아드려요.</span>
+                                    <br><br><br>
+                                    <span class="txt_vod ">지금 OLIE를 다운로드 해보세요</span>
+                                    <button class="link_search " onclick="location.href='https://drive.google.com/file/d/1Zry6Pm7ejV_yTywp2qJt2FSK3p7FEU8L/view?usp=sharing'">
+                                        <span class="txt_link " style="font-size:18px; color:#FF504A ">지금 다운로드하기.</span>
+                        </button>
                                 </div>
                             </div>
-                        </li>
-                        <li class="l-section section">
-                            <div class="about">
-                                <div class="about--banner">
-                                    <h2>ALL<br>LISTEN<br>모두 듣다<br>IS OLIE</h2>
-                                    <a href="https://drive.google.com/open?id=1treQgV0Dl1LboE4VjrbTOZjnubnkcTYh" target="_blank">DOWNLOAD <!--설치 주소-->
-                  <span>
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                    </g>
-                    </svg>
-                  </span>
-                </a>
-                                    <img src="assets/img/about-visual.png" alt="About Us">
-                                </div>
-                                <div class="about--options">
-                                    <a href="#0">
-                                        <h3>Winners</h3>
-                                    </a>
-                                    <a href="#0">
-                                        <h3>Philosophy</h3>
-                                    </a>
-                                    <a href="#0">
-                                        <h3>History</h3>
-                                    </a>
-                                </div>
+                        </div>
+                    </div>
+                    <style>
+                        <style>div {
+                            width: 100%;
+                            height: 300px;
+                        }
+                        
+                        div.left {
+                            width: 5%;
+                            float: left;
+                            box-sizing: border-box;
+                        }
+                        
+                        div.right {
+                            width: 90%;
+                            float: left;
+                            box-sizing: border-box;
+                        }
+                    </style>
+
+                    <div class="heykakao_setting ">
+                        <div class="wrap_cont ">
+                            <h4 style="color:#FF504A; ">업데이트 내역</h4>
+                            <div class="wrap_txt ">
+
+                                <strong class="tit_setting "> 
+                                        <div class="left"><img src="https://valerpg.altervista.org/images/spinner.gif" width="50"></div>
+                                        <div class="right" style=>OLIE는</div>
+                                        <i class="line_pc line_middle "></i> 
+           <!-- react-text: 222 -->끊임없이
+           <!-- /react-text --><br> 
+           <!-- react-text: 224 -->성장하고 있습니다 
+           <!-- /react-text --></strong>
+                                <p class="desc_setting ">
+                                    <i class="line_pc line_middle ">
+                                                Ver.1.0.0 / Last Update
+                                                
+                                        </i>
+                                    <Br> 1. UI 전면 개편
+                                    <span class="txt_item " style="font-size: 14px; margin-bottom: 0%;">메인, 플레이어, 검색 화면이 전면 개편되었습니다. </span>
+                                    <hr noshade="true" color="#FF504A"></hr>
+
+                                    <i class="line_pc line_middle ">
+                                            Ver.0.9 / UPDATE
+                                            
+                                    </i>
+                                    <Br> OLIE 베타 서비스 런칭
+                                    <br><br>
+                                    <i class="line_pc line_middle ">
+                                                Ver.0.1 / Launching
+                                                
+                                        </i>
+                                    <Br> - 앱 안정화
+                                    <Br> - 버그 수정 및 사용성 개선
+                                    <Br> - 플레이어 UI개선
                             </div>
-                        </li>
-                        <li class="l-section section">
-                            <div class="contact">
-                                <div class="contact--lockup">
-                                    <div class="modal">
-                                        <div class="modal--information">
-                                            <p>문제가 있다면 연락하세요</p>
-                                            <a href="mailto:taein2370@naver.com">taein2370@naver.com</a>
-                                        </div>
-                                        <ul class="modal--options">
-                                            <li><a href="https://facebook.com/">Facebook</a></li>
-                                            <li><a href="https://instagram.com/ice_cream135">Instagram</a></li>
-                                            <li><a href="mailto:taein2370@naver.com">Email</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="heykakao_download ">
+                        <div class="wrap_cont ">
+                            <div class="wrap_txt ">
+                                <strong class="tit_download "> 
+           <!-- react-text: 243 -->OLIE로 마음껏
+           <!-- /react-text --><i class="line_mobile "></i> 
+           <!-- react-text: 245 --> PLAY 하세요.
+           <!-- /react-text --><br> 
+           <!-- react-text: 247 -->'Hey Clova'를 불러보세요. 
+           <!-- /react-text --></strong>
+                                <span class="txt_download ">OLIE 앱은 Android 5.0 이상의 단말기를 지원합니다.</span>
                             </div>
-                        </li>
-                        <li class="l-section section">
-                            <div class="hire">
-                                <h2>어떤 기능에 만족하시나요?</h2>
-                                <!-- checkout formspree.io for easy form setup -->
-                                <form class="work-request">
-                                    <div class="work-request--options">
-                                        <span class="options-a">
-                    <input id="opt-1" type="checkbox" value="app design">
-                    <label for="opt-1">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      디자인
-                    </label>
-                    <input id="opt-2" type="checkbox" value="graphic design">
-                    <label for="opt-2">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      백그라운드 재생
-                    </label>
-                    <input id="opt-3" type="checkbox" value="motion design">
-                    <label for="opt-3">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      합리적인 요금(무료)
-                    </label>
-                  </span>
-                                        <span class="options-b">
-                    <input id="opt-4" type="checkbox" value="ux design">
-                    <label for="opt-4">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      검색
-                    </label>
-                    <input id="opt-5" type="checkbox" value="webdesign">
-                    <label for="opt-5">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                     홈화면 추천
-                    </label>
-                    <input id="opt-6" type="checkbox" value="marketing">
-                    <label for="opt-6">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      유튜브 재생
-                    </label>
-                  </span>
-                                    </div>
-                                    <div class="work-request--information">
-                                        <div class="information-name">
-                                            <input id="name" type="text" spellcheck="false">
-                                            <label for="name">사용 의견</label>
-                                        </div>
-                                        <div class="information-email">
-                                            <input id="email" type="email" spellcheck="false">
-                                            <label for="email">Email</label>
-                                        </div>
-                                    </div>
-                                    <input type="submit" value="리뷰 전송하기">
-                                </form>
-                            </div>
-                        </li>
-                    </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="kakaoFoot " class="foot_heykakao " role="contentinfo ">
+                    <div class="inner_foot ">
+                        <a rel="noopener noreferrer " class="link_help ">Dev.Ice Cream</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <ul class="outer-nav">
-            <li class="is-active">Home</li>
-            <li>About</li>
-            <li>Download</li>
-            <li>Contact</li>
-            <li>Review</li>
-        </ul>
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')
-    </script>
-    <script src="assets/js/functions-min.js"></script>
+        <!--[if IE 9]> <![endif]-->
+        <div class="ReactModalPortal ReactModalPortal--a ">
+            <!-- react-empty: 1 -->
+        </div>
 </body>
 
-</html>s
+</html>
