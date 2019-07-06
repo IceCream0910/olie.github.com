@@ -13033,7 +13033,7 @@ not all {
     width: 332px;
     height: 579px;
     margin-left: -166px;
-    background: url(https://t1.kakaocdn.net/kakao_ai_brandsite/PC/tab_heykakao/img_example01_190614.png) no-repeat;
+    background: url(home.jpeg) no-repeat;
     -webkit-box-shadow: 29px 29px 96px 38px rgba(0, 0, 0, 0.2);
     box-shadow: 29px 29px 96px 38px rgba(0, 0, 0, 0.2);
     border-radius: 36px 36px 0 0;
@@ -13046,7 +13046,7 @@ not all {
     width: 527px;
     height: 345px;
     margin: 160px auto 0;
-    background: url(https://t1.kakaocdn.net/kakao_ai_brandsite/PC/tab_heykakao/img_example02.png) no-repeat;
+    background: url(search) no-repeat;
     font-size: 0;
     line-height: 0
 }
@@ -13580,10 +13580,10 @@ not all {
         bottom: 80px;
         left: 50%;
         width: 243px;
-        height: 223px;
+        height: 243px;
         margin: 0 0 0 -124px;
         background-image: url(http://5b0988e595225.cdn.sohucs.com/images/20181013/57b1b07f8af645d7b5e9ac40b3600cb8.gif);
-        background-size: 243px 223px;
+        background-size: 243px 243px;
     }
     /* �ㅼ씠移댁뭅�ㅽ꺆 - �대�吏�諛곕꼫 */
     .heykakao_bnr {
@@ -13702,7 +13702,7 @@ not all {
     }
     /* �ㅼ씠移댁뭅�ㅽ꺆 - �ㅼ젙 */
     .heykakao_setting {
-        height: 700px;
+        height: 500px;
         background: #fff url() 50% 90% no-repeat;
         background-size: 300px 300px
     }
@@ -13733,7 +13733,7 @@ not all {
     }
     /*�ㅼ씠移댁뭅�ㅽ꺆 - �ㅼ슫濡쒕뱶 */
     .heykakao_download {
-        height: 382px
+        height: 250px
     }
     .heykakao_download .wrap_cont {
         padding: 70px 40px 0
