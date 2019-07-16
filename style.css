@@ -13034,6 +13034,7 @@ not all {
     height: 579px;
     margin-left: -166px;
     background: url(home.jpeg) no-repeat;
+    background-size: 332px 579px;
     -webkit-box-shadow: 29px 29px 96px 38px rgba(0, 0, 0, 0.2);
     box-shadow: 29px 29px 96px 38px rgba(0, 0, 0, 0.2);
     border-radius: 36px 36px 0 0;
@@ -13043,10 +13044,10 @@ not all {
 
 .heykakao_example .wrap_cont .img_example02 {
     display: block;
-    width: 527px;
+    width: 345px;
     height: 345px;
     margin: 160px auto 0;
-    background: url(search) no-repeat;
+    background: url(http://5b0988e595225.cdn.sohucs.com/images/20181013/57b1b07f8af645d7b5e9ac40b3600cb8.gif) no-repeat;
     font-size: 0;
     line-height: 0
 }
@@ -13264,7 +13265,7 @@ not all {
 
 .heykakao_setting {
     height: 860px;
-    background: #fff url(https://t1.kakaocdn.net/kakao_ai_brandsite/PC/tab_heykakao/bg_setting.png) 50% 50% no-repeat
+    background: #fff 50% 50% no-repeat
 }
 
 .heykakao_setting .wrap_cont {
@@ -13280,7 +13281,7 @@ not all {
 }
 
 .heykakao_setting .wrap_cont .wrap_txt {
-    float: right
+    float: left
 }
 
 .heykakao_setting .wrap_txt .emph_setting {

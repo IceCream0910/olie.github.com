@@ -17,227 +17,241 @@
     <link rel="shortcut icon" href="https://kakao.ai/favicon.ico">
     <title>OLIE - 음악을 듣는 새로운 방법</title>
     <link href="style.css" rel="stylesheet">
-</head>
+    <header>
+        <h1>ALL<span>LISTEN</span>OLIE</h1>
 
-<body>
-    <noscript>
+    </header>
+
+</head>
+<main>
+
+    <body>
+        <style>
+            header {
+                background: url(header_1.png) no-repeat;
+                padding-top: 61.93333333%;
+                background-size: cover;
+                font-family: 'Noto Sans KR';
+            }
+            
+            header img {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 45.8%;
+            }
+            
+            header h1 {
+                position: fixed;
+                top: 2rem;
+                left: 2rem;
+                font-size: 10vw;
+                line-height: .8;
+                margin-top: 0;
+                text-align: left;
+                color: white;
+            }
+            
+            header h1 span {
+                display: block;
+                font-size: 8.75vw;
+            }
+            
+            main {
+                position: relative;
+            }
+            
+            @media all and (max-width: 400px) {
+                main {}
+            }
+        </style>
+        <noscript>
     이 앱을 실행하려면 자바 스크립트를 사용해야합니다. 
   </noscript>
 
-    </div>
-    <div id="kakaoContent" role="main">
-        <div id="cMain">
-            <div id="mArticle">
-                <h2 id="kakaoBody" class="screen_out">Hey Kakao</h2>
-                <div class="heykako_intro">
-                    <div class="wrap_cont">
-
-
-                        <strong class="tit_intro"> 
-          <!-- react-text: 110 -->음악은 누구나
-          <br>
-          <!-- /react-text --><i class="line_mobile"></i> 
-
-          <!-- react-text: 112 -->들을 수 있어야 한다.
-          <!-- /react-text --></strong>
-                        <br><br>
-                        <button style="  background-color: #FF504A;
-                                border: none;
-                                color: white;
-                                padding: 20px;
-                                text-align: center;
-                                text-decoration: none;
-                                display: inline-block;
-                                font-size: 16px;
-                                margin: 4px 2px;
-                                border-radius: 30px;
-                                cursor: pointer;" onclick="location.href='https://drive.google.com/open?id=1BsfoaABVyBkKGI4bJ8r3Q3WLWCVIIHp0'">DOWNLOAD</button>
-
-
+        <div class="heykakao_about ">
+            <div class="wrap_cont ">
+                <h1>음악을 듣는 새로운 방법</h1>
+                <p class="txt_item ">음악을 들으려면 왜 돈을 내야하지?
+                    <!-- /react-text --><i class="line_pc line_middle "></i>
+                    <!-- react-text: 127 -->라는 생각에서 OLIE는 만들어졌습니다.
+                    <!-- /react-text --><br>
+                    <!-- react-text: 129 -->누구나 쉽게 음악을 들을 수 있도록
+                    <!-- /react-text --><i class="line_pc line_middle "></i>
+                    <!-- react-text: 131 -->음악을 듣는 새로운 방법을 제시합니다.
+                    <!-- /react-text -->
+                </p>
+            </div>
+        </div>
+        <div class="heykakao_driving ">
+            <div class="wrap_cont ">
+                <div class="wrap_txt ">
+                    <strong class="tit_driving ">모든 것을<a style="color:rgb(252, 50, 44) "> PLAY</a>하다</strong>
+                    <p class="txt_driving ">음원으로 등록되지 않은 곡도 얼마든지 PLAY. <br> OLIE의 친화력은 지구를 초월합니다.
+                    </p>
+                </div>
+                <div class="wrap_vod ">
+                    <div class="inner_vod ">
+                        <video id="videoDriving " class="item_video " src=" " poster="player.jpeg " playsinline=" " muted="true "></video>
                     </div>
                 </div>
-                <div class="heykakao_about ">
-                    <div class="wrap_cont ">
-                        <h1>음악을 듣는 새로운 방법</h1>
-                        <p class="txt_item ">음악을 들으려면 왜 돈을 내야하지?
-                            <!-- /react-text --><i class="line_pc line_middle "></i>
-                            <!-- react-text: 127 -->라는 생각에서 OLIE는 만들어졌습니다.
-                            <!-- /react-text --><br>
-                            <!-- react-text: 129 -->누구나 쉽게 음악을 들을 수 있도록
-                            <!-- /react-text --><i class="line_pc line_middle "></i>
-                            <!-- react-text: 131 -->음악을 듣는 새로운 방법을 제시합니다.
-                            <!-- /react-text -->
-                        </p>
-                    </div>
-                </div>
-                <div class="heykakao_driving ">
-                    <div class="wrap_cont ">
-                        <div class="wrap_txt ">
-                            <strong class="tit_driving ">모든 것을<a style="color:rgb(252, 50, 44) "> PLAY</a>하다</strong>
-                            <p class="txt_driving ">음원으로 등록되지 않은 곡도 얼마든지 PLAY. <br> OLIE의 친화력은 지구를 초월합니다.
-                            </p>
-                        </div>
-                        <div class="wrap_vod ">
-                            <div class="inner_vod ">
-                                <video id="videoDriving " class="item_video " src=" " poster="player.jpeg " playsinline=" " muted="true "></video>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="heykakao_example ">
-                    <div class="wrap_cont ">
-                        <strong class="tit_example "> 
+            </div>
+        </div>
+        <div class="heykakao_example ">
+            <div class="wrap_cont ">
+                <strong class="tit_example "> 
           <!-- react-text: 144 -->필요한 정보만 <!-- /react-text --><i class="line_pc line_middle "></i>
                         <!-- react-text: 146 -->눌러담은 <a style="color:rgb(252, 50, 44) "> 홈화면</a>
                         <!-- /react-text -->
                         </strong>
-                        <p class="txt_example ">
-                            <!-- react-text: 148 -->OLIE에 음원차트는 없습니다
-                            <!-- /react-text --><br>
-                            <!-- react-text: 150 -->당신을 위한 첫인상을 디자인했습니다.
-                            <!-- /react-text -->
-                        </p>
-                        <span class="img_example01 ">이미지</span>
-                    </div>
-                    <div class="wrap_cont " style="background-color:rgb(228, 73, 67); ">
-                        <strong class="tit_example " style="color:white; "> 
+                <p class="txt_example ">
+                    <!-- react-text: 148 -->OLIE에 음원차트는 없습니다
+                    <!-- /react-text --><br>
+                    <!-- react-text: 150 -->당신을 위한 첫인상을 디자인했습니다.
+                    <!-- /react-text -->
+                </p>
+                <span class="img_example01 ">이미지</span>
+            </div>
+            <div class="wrap_cont " style="background-color:rgb(228, 73, 67); ">
+                <strong class="tit_example " style="color:white; "> 
           <!-- react-text: 154 -->종횡무진한 검색능력<!-- /react-text --><br>
                         <!-- react-text: 156 --><!-- /react-text -->
                         </strong>
-                        <p class="txt_example " style="color:white; ">
-                            <!-- react-text: 158 -->방대한 음원에 Youtube를 더해
-                            <!-- /react-text --><br>
-                            <!-- react-text: 160 -->세상의 모든 소리를 검색해냅니다.
-                            <!-- /react-text -->
-                        </p>
-                        <span class="img_example02 ">카톡 전송 이미지</span>
-                    </div>
-                </div>
-                <div class="heykakao_search ">
-                    <div class="wrap_cont ">
-                        <div class="wrap_txt ">
-                            <h4 style="color:#FF504A; ">마침내 완성하다</h4>
-                            <strong class="tit_search "> 
+                <p class="txt_example " style="color:white; ">
+                    <!-- react-text: 158 -->방대한 음원에 Youtube를 더해
+                    <!-- /react-text --><br>
+                    <!-- react-text: 160 -->세상의 모든 소리를 검색해냅니다.
+                    <!-- /react-text -->
+                </p>
+                <span class="img_example02 ">카톡 전송 이미지</span>
+            </div>
+        </div>
+        <div class="heykakao_search ">
+            <div class="wrap_cont ">
+                <div class="wrap_txt ">
+                    <h4 style="color:#FF504A; ">마침내 완성하다</h4>
+                    <strong class="tit_search "> 
                                 
            <!-- react-text: 169 -->ONLY.  오직
            <!-- /react-text --><br> 
            <!-- react-text: 171 -->OLIE. 에서만
            <!-- /react-text --></strong>
-                        </div>
-                        <div class="wrap_search ">
+                </div>
+                <div class="wrap_search ">
 
-                            <div class="item_search item_info ">
-                                <p class="wrap_txt "><span class="txt_info ">소개합니다<br><br>수많은 고민 끝에 탄생한<br>OLIE의 능력.</span>
-                                </p>
-                            </div>
-                            <div class="item_search item_vod1 ">
-                                <div class="inner_vod ">
-                                    <video id="videoVoiceSearch " class="item_video " src="http://t1.kakaocdn.net/kakao_ai_brandsite/PC/tab_heykakao/brandsite_heykakao_scene02.mp4 " poster="https://whal.eu/i/lEWeqV7P " playsinline=" " muted="true "></video>
-                                </div>
-                                <span class="txt_vod ">백그라운드 재생</span>
-                                <span class="txt_item ">다른 작업을 하면서 음악을 감상하다. 당연해보이지만<br> Youtube도 가능하다면 혁신.</span>
-                            </div>
-                            <div class="item_search item_weather ">
-                                <img style="border-radius: 20px " src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/attachment_68585523.jpg?auto=format&q=60&fit=max&w=930 " alt="날씨 검색 결과 이미지 " class="img_item ">
-                                <span class="txt_question ">음악엔 앨범아트가 필수</span>
-                                <span class="txt_item ">무료지만 앨범아트는 빠질 수 없죠. 음악마다 새로운 느낌 뿜뿜</span><br>
-                                <span class="txt_item " style="font-size:10px; ">※ 일부 곡에 한해 지원됨.</span>
-                            </div>
-                            <div class="wrap_item ">
-                                <div class="item_search item_english ">
-                                    <img style="border-radius:10px " src="youtube.jpg " alt="영어 검색 결과 이미지 " class="img_item ">
-                                    <span class="txt_question ">MV도 OLIE에서</span>
-                                    <span class="txt_item ">소리만 들을 수 있다고 생각했다면 시기상조</span><br>
-                                    <span class="txt_item " style="font-size:10px; ">※ 저작자가 외부재생을 허용하지 않은 경우 불가능합니다.</span>
-                                </div>
-                                <div class="item_search item_fortune ">
-                                    <img style="border-radius:10px " src="banner.jpeg " alt="운세 검색 결과 이미지 " class="img_item ">
-                                    <span class="txt_question ">아래에서 하단바로</span>
-                                    <span class="txt_item ">한손으로 간편하게 조작할 수 있도록.</span>
-                                </div>
-                            </div>
-                            <div class="wrap_item2 ">
-                                <div class="item_search item_schedule ">
-                                    <img style="border-radius:20px " src="lyrics.jpeg " alt="일정 검색 결과 이미지 " class="img_item ">
-                                    <span class="txt_question ">가사까지 척척</span>
-                                    <span class="txt_item ">이제 더 이상 가사 영상 찾지 마세요. OLIE에서 찾아드려요.</span>
-                                    <br><br><br>
-                                    <span class="txt_vod ">지금 OLIE를 다운로드 해보세요</span>
-                                    <button class="link_search " onclick="location.href='https://drive.google.com/open?id=1BsfoaABVyBkKGI4bJ8r3Q3WLWCVIIHp0'">
-                                        <span class="txt_link " style="font-size:18px; color:#FF504A ">지금 다운로드하기.</span>
-                        </button>
-                                </div>
-                            </div>
+                    <div class="item_search item_info ">
+                        <p class="wrap_txt "><span class="txt_info ">소개합니다<br><br>수많은 고민 끝에 탄생한<br>OLIE의 능력.</span>
+                        </p>
+                    </div>
+                    <div class="item_search item_vod1 ">
+                        <div class="inner_vod ">
+                            <video id="videoVoiceSearch " class="item_video " src="http://t1.kakaocdn.net/kakao_ai_brandsite/PC/tab_heykakao/brandsite_heykakao_scene02.mp4 " poster="https://whal.eu/i/lEWeqV7P " playsinline=" " muted="true "></video>
+                        </div>
+                        <span class="txt_vod ">백그라운드 재생</span>
+                        <span class="txt_item ">다른 작업을 하면서 음악을 감상하다. 당연해보이지만<br> Youtube도 가능하다면 혁신.</span>
+                    </div>
+                    <div class="item_search item_weather ">
+                        <img style="border-radius: 20px; -webkit-box-shadow: 29px 29px 96px 38px rgba(0, 0, 0, 0.2);
+                                box-shadow: 29px 29px 96px 38px rgba(0, 0, 0, 0.2);" src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/attachment_68585523.jpg?auto=format&q=60&fit=max&w=930 " alt="날씨 검색 결과 이미지 " class="img_item ">
+                        <span class="txt_question ">음악엔 앨범아트가 필수</span>
+                        <span class="txt_item ">무료지만 앨범아트는 빠질 수 없죠. 음악마다 새로운 느낌 뿜뿜</span><br>
+                        <span class="txt_item " style="font-size:10px; ">※ 일부 곡에 한해 지원됨.</span>
+                    </div>
+                    <div class="wrap_item ">
+                        <div class="item_search item_english ">
+                            <img style="border-radius:10px;" src="youtube.jpg " alt="영어 검색 결과 이미지 " class="img_item ">
+                            <span class="txt_question ">MV도 OLIE에서</span>
+                            <span class="txt_item ">소리만 들을 수 있다고 생각했다면 시기상조</span><br>
+                            <span class="txt_item " style="font-size:10px; ">※ 저작자가 외부재생을 허용하지 않은 경우 불가능합니다.</span>
+                        </div>
+                        <div class="item_search item_fortune ">
+                            <img style="border-radius:10px;" src="banner.jpeg " alt="운세 검색 결과 이미지 " class="img_item ">
+                            <span class="txt_question ">아래에서 하단바로</span>
+                            <span class="txt_item ">한손으로 간편하게 조작할 수 있도록.</span>
                         </div>
                     </div>
-                    <style>
-                        <style>div {
-                            width: 100%;
-                        }
-                        
-                        div.left {
-                            width: 0%;
-                            float: left;
-                            box-sizing: border-box;
-                        }
-                        
-                        div.right {
-                            width: 90%;
-                            float: left;
-                            box-sizing: border-box;
-                        }
-                    </style>
+                    <div class="wrap_item2 ">
+                        <div class="item_search item_schedule ">
+                            <img style="border-radius:20px.;-webkit-box-shadow: 29px 29px 96px 38px rgba(0, 0, 0, 0.2);
+                                    box-shadow: 29px 29px 36px 38px rgba(0, 0, 0, 0.2); " src="lyrics.jpeg " alt="일정 검색 결과 이미지 " class="img_item ">
+                            <span class="txt_question ">가사까지 척척</span>
+                            <span class="txt_item ">이제 더 이상 가사 영상 찾지 마세요. OLIE에서 찾아드려요.</span>
+                            <br><br><br>
+                            <span class="txt_vod ">지금 OLIE를 다운로드 해보세요</span>
+                            <button class="link_search " onclick="location.href='https://drive.google.com/open?id=1BsfoaABVyBkKGI4bJ8r3Q3WLWCVIIHp0'">
+                                        <span class="txt_link " style="font-size:18px; color:#FF504A ">지금 다운로드하기.</span>
+                        </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style>
+                <style>div {
+                    width: 100%;
+                }
+                
+                div.left {
+                    width: 0%;
+                    float: left;
+                    box-sizing: border-box;
+                }
+                
+                div.right {
+                    width: 90%;
+                    float: left;
+                    box-sizing: border-box;
+                }
+            </style>
 
-                    <div class="heykakao_setting ">
-                        <div class="wrap_cont ">
-                            <h4 style="color:#FF504A; ">업데이트 내역</h4>
-                            <div class="wrap_txt ">
+            <div class="heykakao_setting ">
+                <div class="wrap_cont ">
 
-                                <strong class="tit_setting "> 
-                                        <div class="left"><img src="https://valerpg.altervista.org/images/spinner.gif" width="130"></div>
-                                        <div class="right" >OLIE는</div>
+                    <div class="wrap_txt ">
+
+                        <strong class="tit_setting " style="text-align: left"> OLIE는
                                         <br>
                                         <i class="line_pc line_middle "></i>끊임없이
            <!-- /react-text --><br> 
            <!-- react-text: 224 -->성장하고 있습니다 
 
            <!-- /react-text --></strong>
-                                <br>
-                                <hr noshade="true" color="#FF504A"></hr>
-                                <p class="desc_setting ">
-                                    <h4 style="color:black; font-size:20px; ">UI 전면 개편
-                                        <Br>
-                                        <span class="txt_item " style="font-size: 14px; ">메인, 플레이어, 검색 화면이 전면 개편되었습니다. </span>
+                        <br>
+                        <hr noshade="true" color="#FF504A"></hr>
+                        <Br>
+                        <h3 style="color:#000; text-align: left;">최근 업데이트<br>1. UI 개편<br> - 더 간단하고 아름다워진 디자인으로 음악을 즐겁게 PLAY해보세요.<br><br> 2. 가사 지원(Beta)
+                            <br>- Genius와 함께 가사를 제공해줍니다. 다른 스트리밍 서비스와 다를 것 없이.<br>- 이 기능은 Beta이므로 오류가 발생하거나 제대로 동작하지 않을 수 있습니다. 또한 모든 노래에 대해 지원하는 건 아닙니다.
+                            <br><br>3. REMEMBER 기능 추가<br>- 최근 들은 음악을 기억합니다. 전에 들었던 마음에 드는 노래 다시 찾지 마세요.<br><br>4. 버그 수정 및 안정성 개선<br>- OLIE는 사용자분들을 위해 매 업데이트마다 앱 안정화 작업을 진행합니다. 여기에는 로딩시간 감소가 포합됩니다.<br><br>"앞으로 끝없이 발전해나가는 OLIE를 기대해주세요"</h3>
 
-
-                            </div>
-                        </div>
                     </div>
-                    <div class="heykakao_download ">
-                        <div class="wrap_cont ">
-                            <div class="wrap_txt ">
-                                <strong class="tit_download "> 
+                </div>
+            </div>
+            <div class="heykakao_download " style="text-align: left">
+                <div class="wrap_cont " style="text-align: left">
+                    <div class="wrap_txt " style="text-align: left">
+                        <strong class="tit_download " style="text-align: left"> 
            <!-- react-text: 243 -->OLIE로 마음껏
            <!-- /react-text --><i class="line_mobile "></i> 
            <!-- react-text: 245 --> PLAY 하세요.
            <!-- /react-text --></strong>
-                                <span class="txt_download ">OLIE 앱은 Android 5.0 이상의 단말기를 지원합니다.</span>
-                            </div>
+                        <span class="txt_download ">OLIE 앱은 Android 5.0 이상의 단말기를 지원합니다.</span>
+                    </div>
 
-                        </div>
-                    </div>
-                </div>
-                <div id="kakaoFoot " class="foot_heykakao " role="contentinfo ">
-                    <div class="inner_foot ">
-                        <a rel="noopener noreferrer " class="link_help ">Dev.Ice Cream</a>
-                    </div>
                 </div>
             </div>
+        </div>
+        <div id="kakaoFoot " class="foot_heykakao " role="contentinfo ">
+            <div class="inner_foot ">
+                <a rel="noopener noreferrer " class="link_help ">Dev. Ice Cream</a>
+                <a rel="noopener noreferrer " class="link_help ">Copyright 2019. OLIE. all rights reserved.</a>
+            </div>
+        </div>
+        </div>
         </div>
         <!--[if IE 9]> <![endif]-->
         <div class="ReactModalPortal ReactModalPortal--a ">
             <!-- react-empty: 1 -->
         </div>
-</body>
+    </body>
+</main>
 
 </html>
